@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Queen Size Duvet Inner & Cover Set",
+    "description": "Warm winter-weight microfibre duvet inner with a navy blue cotton cover and two pillowcases. Freshly washed.",
+    "start_price": 15,
+    "reserve_price": 30
+  },
+  {
+    "title": "3-Drawer Bedside Table",
+    "description": "Compact white melamine bedside cabinet with smooth runners. Fits easily into a small flat bedroom.",
+    "start_price": 10,
+    "reserve_price": 25
+  },
+  {
+    "title": "Foldable Clothes Drying Rack",
+    "description": "Sturdy metal airer with extendable wings, ideal for drying laundry indoors during rainy days.",
+    "start_price": 5,
+    "reserve_price": 15
+  },
+  {
+    "title": "Rice Cooker 1.8L with Steamer Tray",
+    "description": "Simple one-touch rice cooker with non-stick inner bowl and measuring cup. Great for quick student meals.",
+    "start_price": 10,
+    "reserve_price": 20
+  },
+  {
+    "title": "Ceramic Fan Heater 2000W",
+    "description": "Small, fast-heating oscillating fan heater with tip-over safety switch. Keeps a bedroom cosy in winter.",
+    "start_price": 10,
+    "reserve_price": 25
+  },
+  {
+    "title": "12-Piece Dinnerware Set",
+    "description": "White porcelain plates, side plates, and bowls for four people. No chips or cracks.",
+    "start_price": 10,
+    "reserve_price": 20
+  },
+  {
+    "title": "Portable Clothing Rack on Wheels",
+    "description": "Adjustable steel garment rail with a bottom shelf for shoes. Handy if your room lacks a built-in wardrobe.",
+    "start_price": 10,
+    "reserve_price": 22
+  },
+  {
+    "title": "Non-Stick Frying Pan & Saucepan Duo",
+    "description": "24cm frypan and 18cm saucepan with glass lid. Suitable for electric and ceramic stovetops.",
+    "start_price": 10,
+    "reserve_price": 25
+  },
+  {
+    "title": "4-Cube Storage Unit",
+    "description": "Oak-look cube shelf unit with two fabric storage bins included. Easy to carry up stairs.",
+    "start_price": 15,
+    "reserve_price": 35
+  },
+  {
+    "title": "Single Electric Blanket",
+    "description": "Fitted fleece electric blanket with three heat settings and detachable controller. Essential for cold NZ nights.",
+    "start_price": 10,
+    "reserve_price": 25
+  },
+  {
+    "title": "4-Outlet Surge Protected Power Board",
+    "description": "NZ 3-pin power strip with individual switches and a 1.5m cord. Clean and in full working order.",
+    "start_price": 5,
+    "reserve_price": 10
+  },
+  {
+    "title": "Laundry Hamper with Lid",
+    "description": "Collapsible bamboo laundry basket with a removable washable liner bag.",
+    "start_price": 8,
+    "reserve_price": 18
+  },
+  {
+    "title": "2-Slice Sandwich Press",
+    "description": "Compact non-stick toasted sandwich maker that stores upright to save bench space.",
+    "start_price": 5,
+    "reserve_price": 15
+  },
+  {
+    "title": "Medium Soft-Shell Suitcase",
+    "description": "Lightweight rolling suitcase with telescopic handle and TSA lock. Great for weekend trips around NZ.",
+    "start_price": 15,
+    "reserve_price": 35
+  },
+  {
+    "title": "Woven Floor Rug 120x170cm",
+    "description": "Neutral beige flat-weave rug that adds warmth to wooden or tiled bedroom floors.",
+    "start_price": 15,
+    "reserve_price": 30
+  },
+  {
+    "title": "16-Inch Pedestal Standing Fan",
+    "description": "Three-speed adjustable height cooling fan for warm summer afternoons. Quiet motor.",
+    "start_price": 10,
+    "reserve_price": 25
+  },
+  {
+    "title": "Cutlery & Kitchen Utensil Bundle",
+    "description": "Set of forks, knives, spoons, wooden spatula, ladle, and sharp chef knife in a drawer tray.",
+    "start_price": 5,
+    "reserve_price": 12
+  },
+  {
+    "title": "Wooden Coat Hangers (Pack of 20)",
+    "description": "Matching natural wood hangers with trouser bars and swivel hooks. Barely used.",
+    "start_price": 5,
+    "reserve_price": 12
+  },
+  {
+    "title": "Dehumidifier 12L/Day",
+    "description": "Compact moisture absorber with full-tank auto shut-off and laundry drying mode. Helps prevent dampness in flats.",
+    "start_price": 40,
+    "reserve_price": 85
+  },
+  {
+    "title": "AT HOP Card & Study Whiteboard Bundle",
+    "description": "Magnetic A3 wall whiteboard with markers plus a spare protective card holder for commuting to campus.",
+    "start_price": 5,
+    "reserve_price": 12
+  }
+]

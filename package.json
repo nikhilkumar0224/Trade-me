@@ -1,0 +1,28 @@
+{
+  "name": "trade-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node seed.js seed",
+    "seed:delete": "node seed.js delete",
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilkumar0224/Trade-me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/nikhilkumar0224/Trade-me/issues"
+  },
+  "homepage": "https://github.com/nikhilkumar0224/Trade-me#readme",
+  "dependencies": {
+    "express": "^5.3.0",
+    "mongodb": "^7.9.1"
+  }
+}
