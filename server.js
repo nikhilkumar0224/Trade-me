@@ -1,4 +1,5 @@
 import express from "express";
+import { ObjectId } from "mongodb";
 import { client, getCollection, ensureTextIndex } from "./db.js";
 
 const app = express();
@@ -43,6 +44,52 @@ app.get("/api/auctions/search", async (req, res) => {
   } catch (err) {
     console.error("Search failed:", err);
     res.status(500).json({ error: "Something went wrong with the search." });
+  }
+});
+
+// GET /api/auctions/:id/similar
+// Returns up to 5 items that are similar to the item with this id.
+app.get("/api/auctions/:id/similar", async (req, res) => {
+  const { id } = req.params;
+
+  // 1. A MongoDB id is exactly 24 letters and numbers (0-9 and a-f)
+  if (!/^[a-f0-9]{24}$/i.test(id)) {
+    return res.status(400).json({ error: "That is not a valid item id." });
+  }
+
+  try {
+    const collection = getCollection();
+
+    // 2. Find the item itself
+    const item = await collection.findOne(
+      { _id: new ObjectId(id) },
+      { projection: { title: 1 } },
+    );
+    if (!item) {
+      return res.status(404).json({ error: "Item not found." });
+    }
+
+    // 3. Search using the item's title, and leave out the item itself ($ne means "not equal")
+    const similar = await collection
+      .find(
+        { $text: { $search: item.title }, _id: { $ne: item._id } },
+        {
+          // MINIMUM DATA again: no reserve_price
+          projection: {
+            title: 1,
+            description: 1,
+            start_price: 1,
+          },
+        },
+      )
+      .sort({ score: { $meta: "textScore" } }) // most similar first
+      .limit(5)
+      .toArray();
+
+    res.json({ count: similar.length, items: similar });
+  } catch (err) {
+    console.error("Similar items failed:", err);
+    res.status(500).json({ error: "Something went wrong." });
   }
 });
 
